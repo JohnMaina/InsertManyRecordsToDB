@@ -26,7 +26,7 @@ public class DatabaseConnection {
         String dbURL = "jdbc:sqlserver://JOHN-PC;databaseName=personDB";
         Properties properties = new Properties();
         properties.put("user", "sa");
-        properties.put("password", "pass@123");
+        properties.put("password", "yourpasswordhere");
         Connection dbConnection = null;
         try {
             dbConnection = DriverManager.getConnection(dbURL, properties);
